@@ -1,0 +1,154 @@
+body
+{
+    font-family: Roboto;
+    font-size: 15px;
+    color: #3f3f3f;
+    
+}
+/* Style header */
+#header
+{
+    border-bottom: 1px solid #d8d8d8;
+}
+#main-menu
+{
+    padding-left: 47px;
+}
+#header .logo
+{
+    display: block;
+    padding: 11px 0;
+}
+#header .logo img
+{
+    display: block;
+}
+#header #main-menu li 
+{
+    float: left;
+}
+#header #main-menu li a
+{
+    display: block;
+    padding: 22px 20px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+#header form
+{
+    margin-top: 12px;
+    
+
+}
+#header .form-group
+{
+    position: relative;
+    
+    
+}
+#header .form-group #search
+{
+    padding: 1px 30px 1px 15px;
+    display: block;
+    font-size: 13px;
+    line-height: 33px;
+    border: 1px solid #e1e1e1;
+    outline: none;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: 300;
+}
+#header .form-group .btn-search
+{
+    position: absolute;
+    top: 6px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    color: #a3a3a3;
+}
+
+/* Style wp-content */
+#wp-content
+{
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+/* Style content */
+#content
+{
+    width: 834px;
+    border-right: 1px solid #ededed;
+    padding-right:39px;
+    
+}
+
+.cover{
+    
+    font-weight: 500;
+        
+    margin-bottom: 45px;
+}
+.cover .post-cover
+{
+    width: 472px;
+}
+.cover .post-cover a.post-title
+{
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    padding: 24px 0 24px 0;
+    display: block;
+}
+.cover .post-cover .post-thumb img
+{
+    display: block;
+}
+.cover .post-cover .post-desc p
+{
+    font-size: 15px;
+    line-height: 27px;
+    
+}
+
+.cover .post-cover a.post-title
+{
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    padding: 24px 0 24px 0;
+    display: block;
+}
+.cover .post-cover .post-thumb img
+{
+    display: block;
+    width: 100%;
+}
+.cover .post-cover .post-desc p
+{
+    font-size: 15px;
+    line-height: 27px;
+}
+.cover .widget-cover
+{
+    width: 322px;
+    padding-left: 30px;
+}
+ul.list-post-cover li a.post-thumb
+{
+    float: left;
+}
+ul.list-post-cover li { clear: both;}
+/* Style sidebar */
+#sidebar
+{
+    width: 335px;
+    padding-left: 30px;
+}
+#sidebar .banner-ads a img
+{
+    width: 100%;
+}
